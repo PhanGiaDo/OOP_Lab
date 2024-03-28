@@ -26,9 +26,9 @@ public class sort_sum_average_array {
 
         double sum = 0;
         System.out.print("Sorted Array: ");
-        for (double i : a) {
-            System.out.print(i + " ");
-            sum += i;
+        for (int i = 0; i < n; i++) {
+            System.out.print(a[i] + " ");
+            sum += a[i];
         }
         double average = sum / n;
         System.out.println();
